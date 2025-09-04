@@ -65,23 +65,24 @@ This advanced approach uses **DistilBERT** to capture semantic and contextual me
 - **Fine-Tuning**: Model adapted on our review dataset via transfer learning.  
 - **Training**: Performed on **Google Colab with GPU acceleration** for efficiency.  
 
----
 ## 4. Project Structure
 
+```text
 sentiment-analysis-project/
 ├── 📂 notebooks/
-│ ├── 1_BoW_and_Logistic_Regression.ipynb # Baseline model
-│ └── 2_Transformer_Fine_Tuning.ipynb # Advanced model
+│   ├── 1_BoW_and_Logistic_Regression.ipynb    # Baseline model
+│   └── 2_Transformer_Fine_Tuning.ipynb        # Advanced model
 │
 ├── 📂 data/
-│ └── K8 Reviews.csv # The raw dataset
+│   └── K8 Reviews.csv                         # The raw dataset
 │
 ├── 📂 saved_models/
-│ ├── classifier.pickle # Saved Logistic Regression model
-│ └── tfidfmodel.pickle # Saved TF-IDF vectorizer
+│   ├── classifier.pickle                      # Saved Logistic Regression model
+│   └── tfidfmodel.pickle                      # Saved TF-IDF vectorizer
 │
-└── 📜 README.md # Project documentation
----
+└── 📜 README.md                               # Project documentation
+```
+
 
 ## 5. How to View This Project
 - **Step 1: Baseline** → Open `notebooks/1_BoW_and_Logistic_Regression.ipynb`  
