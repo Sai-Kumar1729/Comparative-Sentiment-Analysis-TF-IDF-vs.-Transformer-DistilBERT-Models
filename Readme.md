@@ -69,19 +69,18 @@ This advanced approach uses **DistilBERT** to capture semantic and contextual me
 
 
 sentiment-analysis-project/
-│
 ├── 📂 notebooks/
-│ ├── 1_BoW_and_Logistic_Regression.ipynb # Baseline model
-│ └── 2_Transformer_Fine_Tuning.ipynb # Advanced model
+│   ├── 1_BoW_and_Logistic_Regression.ipynb    # Baseline model
+│   └── 2_Transformer_Fine_Tuning.ipynb        # Advanced model
 │
 ├── 📂 data/
-│ └── K8 Reviews.csv # The raw dataset
+│   └── K8 Reviews.csv                         # The raw dataset
 │
 ├── 📂 saved_models/
-│ ├── classifier.pickle # Saved Logistic Regression model
-│ └── tfidfmodel.pickle # Saved TF-IDF vectorizer
+│   ├── classifier.pickle                      # Saved Logistic Regression model
+│   └── tfidfmodel.pickle                      # Saved TF-IDF vectorizer
 │
-└── 📜 README.md # Project documentation
+└── 📜 README.md                               # Project documentation
 
 
 ---
