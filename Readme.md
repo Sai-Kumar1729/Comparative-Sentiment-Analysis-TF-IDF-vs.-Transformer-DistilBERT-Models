@@ -106,6 +106,3 @@ This project successfully demonstrates the **evolution of NLP techniques** for s
 - The **fine-tuned Transformer (DistilBERT)** achieves **significantly higher accuracy** thanks to its **attention mechanism**, which enables better understanding of **context, nuance, and negation**.  
 
 ✨ This showcases the power of modern **deep learning models** in outperforming traditional methods for complex language tasks.
-
-
-## 4. Project Structure
